@@ -1,0 +1,19 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #fd2f3f
+}
+.box{
+	width: 18rem;
+	padding: 3rem;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	background: pink;
+	text-align: center;
+
+}
+.box input[type="text"]{
+	width: 16rem;
+}
