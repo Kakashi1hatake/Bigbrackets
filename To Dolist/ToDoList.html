@@ -6,15 +6,26 @@
 	
 	</head>
 	<body>
-		
-		<form id="todo" class="container">
-			<h1>To Do List App</h1>
-			<input id="txt">
-			<button type="button" onclick="todolist()">Add</button>
-
-			<ol id="todol" >
-			</ol>
-		</form>
+		<div class="crud-div">
+				<table>
+					<tr>
+						<td>
+							<form onsubmit="onFormSubmit(event)">
+							<input type="text" placeholder="Caption It" id="title"/>
+							<input type="submit" value="add">
+							</form>
+						</td>
+					</tr>
+					<td>
+						<table id="data">
+							<tr>
+								<th>title</th>
+								<th>delete</th>
+							</tr>
+						</table>
+					</td>
+				</table>
+				</div>
 		
 
 		<script src="main.js"></script>
