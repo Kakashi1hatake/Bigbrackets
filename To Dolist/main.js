@@ -1,8 +1,13 @@
-let butn=document.getElementById('btn');
-let cont=document.getElementById('con');
-let text=document.getElementById('txt');
+function todolist(){
+	var item = document.getElementById('txt').value;
+	var text =document.createTextNode(item);
+	var newItem=document.createElement("li");
+	newItem.appendChild(text);
+	document.getElementById("todol").appendChild(newItem);
+	txt.value="";
 
-butn.addEventListener('click',function(){
-	var paragraph=document.createElement(p)
-	cont.appendchild(paragraph);
-	})
+
+	
+	
+	
+}
