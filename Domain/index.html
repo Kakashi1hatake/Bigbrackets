@@ -5,28 +5,37 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Domain Request</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
 </head>
 <body>
     <div class="Container">
-        <h1>Np Domain Registration Cover Letter Generator</h1>
-        <p>Visit <span class="blue">Help Section</span> for How to fill the form and How to save the Generated Cover Lette</p>
+        <h1>Np Domain Registration</br> Cover Letter Generator</h1>
+        <p class="head">Visit <span class="blue">Help Section</span> for How to fill the form and How to save</br> the Generated Cover Lette</p>
+        <form method="get" action="letter.html" name="cover">
         <p>Name:</p>
         <input type="text" > 
-        <p>Email:</p>
+        <p >Email:</p>
         <input type="text" > 
         <p>Phone:</p>
         <input type="text" > 
         <p>Domain Name:</p>
-        <input type="text" > 
-        <select name="Domain Name Extension">
+        <input type="text" ></br> 
+        <p>Domain Extension:</p>
+        <select name="Domain Name Extension" id="select">
             <option value="com.np">com.np</option>
             <option value="info.np">info.np</option>
             <option value="name.np">name.np</option>
             <option value="pro.np">pro.np</option>
             <option value="biz.np">biz.np</option>
-        </select> 
+        </select> </br>
+        <div>
+            <input type="submit" value="Generate"></br>
+        </div>
+        <p class="footer">
+            <a href="">Register your .np domain</a>
+        </p>
+        </form>
     </div>
 </body>
 </html>

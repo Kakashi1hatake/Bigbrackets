@@ -1,0 +1,68 @@
+body{
+    margin-left: 1rem;
+    padding: 0;
+    background: white
+}
+.container h1{
+    font-weight: bold;
+}
+.container, .blue{
+    color: blue;
+}
+.container ,input[type="text"]
+{
+    border:0;
+	background: none;
+	text-align: center;
+	border:2px solid #1a1b1b;
+	padding: 0.5rem;
+	width: 80%;
+	outline: none;
+	border-radius: 0.5rem;
+	color: rgb(10, 9, 9);
+}
+.container ,#select
+{
+    border:0;
+	background: none;
+	text-align: center;
+	border:2px solid #1a1b1b;
+	padding: 0.5rem;
+	width: 83%;
+	outline: none;
+	border-radius: 0.5rem;
+	color: rgb(10, 9, 9);
+}
+.container ,input[type="submit"]
+{
+    float: right;
+    margin-right: 15rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    background:green;
+    width: 7.5rem;
+    padding: 1rem;
+    
+}
+/* .container,.footer{
+    color: blue;
+   display: flex;
+   justify-content: center;
+} */
+
+.container ,.footer{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .container{
+    background: red;
+    width: 70%;
+    margin: auto;
+} */
