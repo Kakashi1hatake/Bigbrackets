@@ -2,16 +2,22 @@ body{
 	margin: 0rem;
 	padding: 0rem;
 	font-family: sans-serif;
-	background: #344956
+	background: #565134
 }
-container{
+.container{
 	width: 18rem;
 	padding: 3rem;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform:translate(-50%,-50%);
-	background: #191919;
+	background: #fc0808;
 	text-align: center;
 
+}
+.list{
+	color: white;
+}
+.rows{
+	color: whitesmoke;
 }
