@@ -12,7 +12,18 @@ window.addEventListener('load', ()=>{
     document.querySelector('#email').innerText = email
     document.querySelector('#mobile').innerText = mobile
     document.querySelectorAll('.domain-extension').forEach(item=>{
-        item.innerText = domain+"."+domainEx
+        item.innerText = domainName+"."+domainExtension
     })
-    document.querySelector('#just-domain-extension').innerText = domainEx
+    document.querySelector('#just-domain-extension').innerText = domainExtension
+})
+document.getElementById('download').addEventListener('click', function(){
+
+    html2canvas($('#container'),{
+        onrendered: function(canvas){
+            var a = document.createElement("a");
+            a.href = canvas.toDataURL("image/jpg");
+            a.download = "cover.jpg";
+            a.click();
+        }
+    })
 })
