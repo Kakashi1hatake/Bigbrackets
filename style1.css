@@ -1,0 +1,25 @@
+body{
+	margin: 0rem;
+	padding: 0rem;
+	font-family: sans-serif;
+	background: #344956
+}
+.container{
+	width: 18rem;
+	padding: 3rem;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+
+}
+.container h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+#todol{
+	color: white;
+}
