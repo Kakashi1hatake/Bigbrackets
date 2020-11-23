@@ -13,5 +13,27 @@
             <li><a href="">Home</a></li>
         </ul>
     </div>
+
+    <div id="status">
+        
+    </div>
+
+    <script>
+        const data = JSON.parse(localStorage.getItem('data'))
+
+        if(data){
+            document.querySelector('#status').style.display = "block"
+            if(!data.approve && !data.decline){
+                document.querySelector('#status').innerText = 'Your request is pending'
+            }
+            else if(data.approve){
+                document.querySelector('#status').innerText = 'Your request approved'
+            }else if(data.decline){
+                document.querySelector('#status').innerText = 'Your request is not approved'
+            }
+        }else{
+            document.querySelector('#status').style.display = 'none'
+        }
+    </script>
 </body>
 </html>
