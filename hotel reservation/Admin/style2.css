@@ -4,15 +4,21 @@ body{
 	font-family: sans-serif;
 	background: #344956
 }
+.info-text, h1{
+	
+padding-top: 1rem;
+
+}
 .container{
-	width: 30rem;
+	width: 40rem;
 	padding: 3rem;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform:translate(-50%,-50%);
-	background: #cc0e0e;
+	background: #dec2c2;
 	text-align: center;
+	
 
 
 } 

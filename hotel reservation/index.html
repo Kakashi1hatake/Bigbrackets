@@ -5,13 +5,18 @@
     <link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 <body>
-    <div class="box">
-        <ul type="none">
-            <li><a href="">Services</a></li>
-            <li><a href="booking.html">Booking</a></li>
-            <li><a href="">Contacts</a></li>
-            <li><a href="">Home</a></li>
-        </ul>
+    <div class="navbar">
+        <div class="container">
+            <div class="nav-links">
+                <div class="brand">Logo</div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <div id="status">
@@ -24,12 +29,12 @@
         if(data){
             document.querySelector('#status').style.display = "block"
             if(!data.approve && !data.decline){
-                document.querySelector('#status').innerText = 'Your request is pending'
+                document.querySelector('#status').innerText = 'Your request is pending,we will reply you within a minute'
             }
             else if(data.approve){
-                document.querySelector('#status').innerText = 'Your request approved'
+                document.querySelector('#status').innerText = 'Booking Successful. THANKS FOR STAYING WITH US'
             }else if(data.decline){
-                document.querySelector('#status').innerText = 'Your request is not approved'
+                document.querySelector('#status').innerText = 'Request Denied. We are housefull For Now ,THANKS FOR CHOOSING US'
             }
         }else{
             document.querySelector('#status').style.display = 'none'
