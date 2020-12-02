@@ -15,7 +15,7 @@ a1.onclick = function () {
     box2.style.opacity = 0;
     box3.style.opacity = 0;
     box4.style.opacity = 0;
-    info.innerHTML = "Image 1"
+    info.innerHTML = ""
     i = 0;
 }
 
@@ -24,7 +24,7 @@ a2.onclick = function () {
     box2.style.opacity = 1;
     box3.style.opacity = 0;
     box4.style.opacity = 0;
-    info.innerHTML = "Image 2"
+    info.innerHTML = ""
     i = 1;
 }
 
@@ -33,7 +33,7 @@ a3.onclick = function () {
     box2.style.opacity = 0;
     box3.style.opacity = 1;
     box4.style.opacity = 0;
-    info.innerHTML = "Image 3"
+    info.innerHTML = ""
     i = 2;
 }
 
@@ -42,7 +42,7 @@ a4.onclick = function () {
     box2.style.opacity = 0;
     box3.style.opacity = 0;
     box4.style.opacity = 1;
-    info.innerHTML = "Image 4"
+    info.innerHTML = ""
     i = 3;
 }
 
@@ -64,7 +64,7 @@ function right() {
         box2.style.opacity = 0;
         box3.style.opacity = 0;
         box4.style.opacity = 0;
-        info.innerHTML = "Image 1"
+        info.innerHTML = ""
         i++
     }
     else if (i == 1) {
@@ -72,7 +72,7 @@ function right() {
         box2.style.opacity = 1;
         box3.style.opacity = 0;
         box4.style.opacity = 0;
-        info.innerHTML = "Image 2"
+        info.innerHTML = ""
         i++
     }
     else if (i == 2) {  
@@ -80,7 +80,7 @@ function right() {
         box2.style.opacity = 0;
         box3.style.opacity = 1;
         box4.style.opacity = 0;
-        info.innerHTML = "Image 3"
+        info.innerHTML = ""
         i++
     }
     else if (i == 3) {
@@ -88,7 +88,7 @@ function right() {
         box2.style.opacity = 0;
         box3.style.opacity = 0;
         box4.style.opacity = 1;
-        info.innerHTML = "Image 4"
+        info.innerHTML = ""
         i = 0;
     }
 }
@@ -99,7 +99,7 @@ function left() {
         box2.style.opacity = 0;
         box3.style.opacity = 0;
         box4.style.opacity = 1;
-        info.innerHTML = "Image 1"
+        info.innerHTML = ""
         i++
     }
     else if (i == 1) {
@@ -107,7 +107,7 @@ function left() {
         box2.style.opacity = 0;
         box3.style.opacity = 1;
         box4.style.opacity = 0;
-        info.innerHTML = "Image 2"
+        info.innerHTML = ""
         i++
     }
     else if (i == 2) {
@@ -115,7 +115,7 @@ function left() {
         box2.style.opacity = 1;
         box3.style.opacity = 0;
         box4.style.opacity = 0;
-        info.innerHTML = "Image 3"
+        info.innerHTML = ""
         i++
     }
     else if (i == 3) {
@@ -123,7 +123,7 @@ function left() {
         box2.style.opacity = 0;
         box3.style.opacity = 0;
         box4.style.opacity = 0;
-        info.innerHTML = "Image 4"
+        info.innerHTML = ""
         i = 0;
     }
 }
